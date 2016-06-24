@@ -14,8 +14,8 @@ class Sfc_fun:
         self.token_id = 0
         self.net_id = 0
         self.image_id = 0
-        self.os_hostname = '172.16.0.8'
-        self.onos_hostname = '172.16.0.8'
+        self.os_hostname = 'openstack_ip'
+        self.onos_hostname = 'onos_ip'
         #Network variables #######
         self.netname = "test_nw"
         self.admin_state_up = True
